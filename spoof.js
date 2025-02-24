@@ -87,32 +87,6 @@ function enter() {
     }
 }
 
-function change2() {
-    var input1 = document.getElementById('input1');
-    var input2 = document.getElementById('input2');
-    var header1 = document.getElementById('header1');
-    var header2 = document.getElementById('header2');
-    var forgot = document.getElementById('forgot-text');
-    var guest = document.getElementById('guest-mode');
-    var learn = document.getElementById('learn-more');
-    var create = document.getElementById('create-account');
-    var next = document.getElementById('next');
-    input1.value = "";
-    input1.type = "password";
-    input1.disabled = true;
-    input2.innerHTML = "You idiot";
-    header1.innerHTML = "This was not real";
-    header1.style.paddingLeft -= 10;
-    header1.style.setProperty("grid-column-end", "11");
-    header2.innerHTML = "Check to make sure that sites are the real thing before putting in any personal information";
-    header2.style.paddingLeft += 15;
-    header2.style.setProperty("grid-column-end", "18");
-    forgot.innerHTML = "Forgot password?";
-    guest.innerHTML = "";
-    learn.innerHTML = "";
-    create.innerHTML = "";
-    next.style.setProperty("grid-row-start", "14");
-    next.style.setProperty("grid-row-end", "15");
 }
 
 function change() {
